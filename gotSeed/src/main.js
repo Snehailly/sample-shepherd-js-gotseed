@@ -26,11 +26,4 @@ const toggleItem = (item) => {
     item.classList.add("accordion-open");
   }
 };
-import flagsmith from 'flagsmith';
 
-flagsmith.init({
-    environmentID: 'Pe4XTw83ZRX7MnFKXjcaTJ',
-    onChange: (flags) => {
-        console.log('Flags have been updated:', flags);
-    }
-});
